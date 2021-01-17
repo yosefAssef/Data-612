@@ -1,4 +1,4 @@
 # Data-612 
-## create dataframe called student_grade 
-### find the maximun data 
+1.create dataframe called student_grade 
+2.find the maximun data 
  
