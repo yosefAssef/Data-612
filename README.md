@@ -1,15 +1,17 @@
 # Data-612 
-## Assignment02 
-1.create dataframe manually by inputting data
+## Assignment03
+1.I import needed libraries 
 
-2.Return the maximum values of 'Age' and 'mark' form the daraframe using Grade.max() and ages.max()
+2. import the baseball data from github
 
-3. using the subtraction sign(-) subtracted allthe Grade form the Grade.max()
+3. using sns.distplot visualize distribustion of games the teams lost 
 
-4. Create datetime virable called "Months_of_birth" from "datat_of_brith" column using pd.to_datetime
+4. using sns.heatmap to show any relationships  between the variables.
 
-5. creat and add the new set of columns that contain moths of the studetnt birth day into the dataframe
+5. i import the salaries data from github 
 
-6.save the dataset as a cvs file
+6. using sns.lineplot visulatize a salary change over time.(line graphs used to track changes over time) 
+
+7. using sns.barplot viusla salary differnt btween NL and AL .(bar graphs used to count discrete variables)
  
  
