@@ -1,17 +1,17 @@
 # Data-612 
-## Assignment03
+## Assignment04
 1.I import needed libraries 
 
-2. import the baseball data from github
+2. import  2 data set from baseball data 
 
-3. using sns.distplot visualize distribustion of games the teams lost 
+3. using pd.merge to merge the two dataset using yearID and PlayerID columns 
 
-4. using sns.heatmap to show any relationships  between the variables.
+4. identify the missing values on the marge data set using .isnull()
 
-5. i import the salaries data from github 
+5 using .shape to count the number of columns and rows on the marge data set
 
-6. using sns.lineplot visulatize a salary change over time.(line graphs used to track changes over time) 
+6. using .isnull().sum() count the missing values on the data set
 
-7. using sns.barplot viusla salary differnt btween NL and AL .(bar graphs used to count discrete variables)
+7. clean the data set from the missing values by fillning NA with 0 uning  .fillna(0)
  
  
