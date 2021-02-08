@@ -1,17 +1,11 @@
 # Data-612 
-## Assignment04
-1.I import needed libraries 
+## Assignment05
+1.import needed libraries 
 
-2. import  2 data set from baseball data 
+2. import baseball data set using pd.read_csv
 
-3. using pd.merge to merge the two dataset using yearID and PlayerID columns 
+3. using .dtypes to identify the data types of the column
 
-4. identify the missing values on the marge data set using .isnull()
+4. convert a Non-categorical type into a categorical type using .astype ('category')
 
-5 using .shape to count the number of columns and rows on the marge data set
-
-6. using .isnull().sum() count the missing values on the data set
-
-7. clean the data set from the missing values by fillning NA with 0 uning  .fillna(0)
- 
- 
+5.convert float data type into a string data type using .astype(str)
