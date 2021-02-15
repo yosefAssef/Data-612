@@ -1,11 +1,15 @@
 # Data-612 
-## Assignment05
+## Assignment06
 1.import needed libraries 
 
 2. import baseball data set using pd.read_csv
 
-3. using .dtypes to identify the data types of the column
+3. creat a new column and extract the numbers from a column using .str.extract(\d)
 
-4. convert a Non-categorical type into a categorical type using .astype ('category')
+4. store the extracted column into the new colum
 
-5.convert float data type into a string data type using .astype(str)
+5. creat a function that returns mean, sum and range using Def 
+
+6 Run the funcation into chosen column using  .apply() method
+
+
